@@ -1,0 +1,89 @@
+[[exercises]]
+id = "core-01"
+title = "Hello World"
+track = "core"
+depends_on = ""
+
+[[exercises]]
+id = "core-02"
+title = "Run Nginx"
+track = "core"
+depends_on = "core-01"
+
+[[exercises]]
+id = "core-03"
+title = "Output and Logs"
+track = "core"
+depends_on = "core-02"
+
+[[exercises]]
+id = "core-04"
+title = "Manipulating Running Containers"
+track = "core"
+depends_on = "core-03"
+
+[[exercises]]
+id = "core-05"
+title = "Build Your First Image"
+track = "core"
+depends_on = "core-04"
+
+[[exercises]]
+id = "core-06"
+title = "Dockerfile Instructions"
+track = "core"
+depends_on = "core-05"
+
+[[exercises]]
+id = "core-07"
+title = "Copying Files into Images"
+track = "core"
+depends_on = "core-06"
+
+[[exercises]]
+id = "core-08"
+title = "Volumes for Persistence"
+track = "core"
+depends_on = "core-07"
+
+[[exercises]]
+id = "core-09"
+title = "Bind Mounts for Development"
+track = "core"
+depends_on = "core-08"
+
+[[exercises]]
+id = "core-10"
+title = "Basic Networking"
+track = "core"
+depends_on = "core-09"
+
+[[exercises]]
+id = "core-11"
+title = "Ports and Exposure"
+track = "core"
+depends_on = "core-10"
+
+[[exercises]]
+id = "core-12"
+title = "Intro to Docker Compose"
+track = "core"
+depends_on = "core-11"
+
+[[exercises]]
+id = "core-13"
+title = "Multi-Service Compose"
+track = "core"
+depends_on = "core-12"
+
+[[exercises]]
+id = "core-14"
+title = "Multi-Service Compose /w volumes & networks"
+track = "core"
+depends_on = "core-13"
+
+[[exercises]]
+id = "core-15"
+title = "Multi-Stage build"
+track = "core"
+depends_on = "core-14"
